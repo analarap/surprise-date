@@ -9,9 +9,6 @@ function revealMessage() {
     }, 100);
 }
 
-document.getElementById('acceptButton').addEventListener('click', function() {
-    console.log("Evento adicionado ao calendário.");
-});
 
 setTimeout(revealMessage, 3000);
 
